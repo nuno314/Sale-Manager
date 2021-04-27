@@ -22,7 +22,5 @@ public:
 	float discount(string, int, int);
 	float discount(string);
 	void billCalculation();
-	void importBill();
-	void importOrder();
-
+	void exportBill();
 };
