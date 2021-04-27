@@ -1,0 +1,43 @@
+PRV1
+Le Hoang Trong Tin
+13
+
+PRV2
+Ro Ta
+8
+
+PRV3
+Nguyen Tien Tai
+23
+
+PRV4
+Le Hoang Anh Thao
+7
+
+AGT1
+Dai Ly Binh Minh
+6
+
+AGT2
+Dai Ly Gia Dinh
+3
+
+AGT3
+Cua Hang Khanh Nhu
+4
+
+CPN1
+Cong Ty VNG
+666
+
+CPN2
+Cong Ty FPT
+444
+
+CPN3 
+Cong Ty Game Riot
+233
+
+END
+
+
