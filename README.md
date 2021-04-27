@@ -55,3 +55,11 @@ _____
       |     |--Bill.txt
       |     |--CustomerInfo.txt
       |     |--Order.txt
+      
+## **Class Desgin**
+
+| Class | Detail |
+| ----- | ------ |
+| Bill | Get order from "Order" class, calculate total and export Bill for every single order |
+| Customer | Fundamental class, including ID and Name of Customer |
+| PrivateCustomer | Inherit from "Customer" class that adds new attribute (Distance) for discount calculation |
