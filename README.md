@@ -1,6 +1,6 @@
 # Sale-Manager
 
-BÀI 1. QUẢN LÝ BÁN HÀNG (at class)
+QUẢN LÝ BÁN HÀNG 
 Công ty ABC chuyên phân phối máy lạnh cho các khách hàng trong thành phố. Với mỗi lần bán hàng công ty sẽ lưu trữ các thông tin: Mã khách hàng, tên khách hàng, số lượng, giá bán và thành tiền. Biết rằng: 
 Thành tiền =  Số lượng * Đơn giá  Chiết khấu + Thuế VAT
 Trong đó:
@@ -25,3 +25,32 @@ Yêu cầu:
 8.	Tổng số tiền chiết khấu của công ty là bao nhiêu đối với khách hàng công ty.
 9.	Sắp xếp danh sách hóa đơn tăng dần theo số lượng, nếu số lượng bằng nhau thì sắp xếp giảm dần theo thành tiền.
 10.	Cho biết trong danh sách công ty có bao nhiêu đại lý cấp 1.
+
+File Structure
+_____
+      |.h
+      |____
+      |     |--Bill.h
+      |     |--Company.h
+      |     |--Customer.h
+      |     |--Manage.h
+      |     |--Order.h
+      |     |--PrivateCustomer.h
+      |     |--Tier1Agent.h
+      |
+      |.cpp
+      |____
+      |     |--Bill.cpp
+      |     |--Company.cpp
+      |     |--Customer.cpp
+      |     |--Main.cpp
+      |     |--Manage.cpp
+      |     |--Order.cpp
+      |     |--PrivateCustomer.cpp
+      |     |--Tier1Agent.cpp
+      |
+      |.txt
+      |____
+      |     |--Bill.txt
+      |     |--CustomerInfo.txt
+      |     |--Order.txt
