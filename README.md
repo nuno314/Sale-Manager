@@ -56,7 +56,7 @@ _____
       |     |--CustomerInfo.txt
       |     |--Order.txt
       
-## **Class Desgin**
+## **Class Design**
 
 | Class | Detail |
 | ----- | ------ |
