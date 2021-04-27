@@ -1,6 +1,6 @@
 # Sale-Manager
 
-# **QUẢN LÝ BÁN HÀNG **
+## ** QUẢN LÝ BÁN HÀNG **
 Công ty ABC chuyên phân phối máy lạnh cho các khách hàng trong thành phố. Với mỗi lần bán hàng công ty sẽ lưu trữ các thông tin: Mã khách hàng, tên khách hàng, số lượng, giá bán và thành tiền. Biết rằng: 
 Thành tiền =  Số lượng * Đơn giá  Chiết khấu + Thuế VAT
 Trong đó:
@@ -63,3 +63,7 @@ _____
 | Bill | Get order from "Order" class, calculate total and export Bill for every single order |
 | Customer | Fundamental class, including ID and Name of Customer |
 | PrivateCustomer | Inherit from "Customer" class that adds new attribute (Distance) for discount calculation |
+| Tier1Agent | Inherit from "Customer" class that adds new attribute (Co-operative Time) for discount calculation |
+| Company |  Inherit from "Customer" class that adds new attribute (Number of Employees) for discount calculation |
+| Manage | Core class, containing orders from customers, calculating total of bill, exporting to file |
+| Order | Purchasing list of customers, including customer's ID & Name, amount of products and price of a product |
