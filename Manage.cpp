@@ -112,8 +112,6 @@ float Manage::discount(string _ID) {
 }
 
 void Manage::billCalculation() {
-
-
 	for (int i = 0; i < OrderList.size(); i++) {
 		Order currOrd = OrderList[i];
 		
@@ -158,21 +156,11 @@ void Manage::billCalculation() {
 	}
 }
 
-void Manage::importBill(){
-	ofstream os("BillImport.txt");
+void Manage::exportBill(){
+	ofstream os("Bill.txt");
 	for (int i = 0; i < BillList.size(); i++) {
 		os << BillList[i] << endl;
 		
 	}
 }
 
-void Manage::importOrder() {
-	ofstream os("OrderImport.txt");
-	for (int i = 0; i < OrderList.size(); i++) {
-		cout << OrderList[i].getCustomer().getID() << endl;
-		cout << OrderList[i].getCustomer().getName() << endl;
-		cout << OrderList[i].getAmount() << endl;
-		cout << OrderList[i].getPrice() << endl;
-
-	}
-}
