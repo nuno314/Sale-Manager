@@ -26,7 +26,8 @@ Yêu cầu:
 9.	Sắp xếp danh sách hóa đơn tăng dần theo số lượng, nếu số lượng bằng nhau thì sắp xếp giảm dần theo thành tiền.
 10.	Cho biết trong danh sách công ty có bao nhiêu đại lý cấp 1.
 
-**File Structure**
+## **File Structure**
+
 _____
       |.h
       |____
