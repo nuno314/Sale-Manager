@@ -2,7 +2,7 @@
 
 ## ** QUẢN LÝ BÁN HÀNG **
 Công ty ABC chuyên phân phối máy lạnh cho các khách hàng trong thành phố. Với mỗi lần bán hàng công ty sẽ lưu trữ các thông tin: Mã khách hàng, tên khách hàng, số lượng, giá bán và thành tiền. Biết rằng: 
-Thành tiền =  Số lượng * Đơn giá  Chiết khấu + Thuế VAT
+      Thành tiền =  Số lượng * Đơn giá - Chiết khấu + Thuế VAT
 Trong đó:
 •	Thuế VAT là 10% của tổng tiền. Tổng tiền = Số lượng * Đơn giá.
 •	Chiết khấu được tính tùy vào loại khách hàng của công ty: 
